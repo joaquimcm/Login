@@ -12,6 +12,142 @@
   --white: #ffffff;
 }
 
+@media (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+
+}
+
+
+
 body {
   font-family: "Archivo", sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+aside img {
+  width: 450px;
+  height: 450px;
+}
+.box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-top: 5rem;
+}
+
+div > form > input {
+  padding: 16px;
+  padding-right: 100px;
+  margin: 10px 0px;
+  border: 1px;
+  border-radius: 4px;
+  outline: none;
+}
+
+div > form > h3 {
+  color: #1a202c;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 10px;
+}
+
+div > form > h1 {
+  color: #1a202c;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  padding-bottom: 30px;
+}
+
+div > form > p {
+  color: #1a202c;
+}
+
+form > div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+form > div > label {
+  color: #1a202c;
+}
+
+form > div > a {
+  color: #1e9e6a;
+  padding: 5px 0px;
+}
+
+span {
+  display: flex;
+}
+
+span label {
+  padding-left: 5px;
+}
+
+form > div.checkbox > span > input[type="checkbox"] {
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+form > article {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 5px;
+}
+
+article > button.en {
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 16px 32px;
+  background-color: #1e9e6a;
+  color: white;
+  cursor: pointer;
+}
+
+article > button {
+  border: none;
+  border-radius: 4px;
+  margin-top: 11px;
+  padding: 16px 32px;
+  background-color: #1a202c;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+article > button > img {
+  width: 23px;
+}
+
+article p, a {
+  padding-top: 25px;
+  text-align: center;
+}
+
+article p {
+  color: #1a202c;
+}
+
+article a {
+  color: #1e9e6a;
 }
